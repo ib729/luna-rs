@@ -1,0 +1,53 @@
+Luna-RS - TI-Nspire .tns File Converter
+========================================
+
+This project is a Rust rewrite of Luna.
+
+DUAL LICENSING
+--------------
+
+This repository contains code under multiple licenses:
+
+1. Files derived from the upstream Luna C implementation are licensed under
+   the Mozilla Public License v1.1 (MPL-1.1). See LICENSE.MPL for full text.
+
+   Currently, this includes:
+   - src/core/des.rs
+   - src/core/compression.rs
+   - src/core/xml.rs
+
+2. New code written for Luna-RS (CLI, application logic, and other new
+   implementations) is licensed under the MIT License. See LICENSE.MIT
+   for full text.
+
+ATTRIBUTION
+-----------
+
+Original Luna Project:
+  - Original C implementation of Luna
+  - TI-Nspire document wrapping/encryption logic (luna.c)
+  - Licensed under Mozilla Public License v1.1
+
+Luna-RS Contributors:
+  - Rust rewrite implementation
+  - Architecture and module design
+  - Licensed under MIT License (new code)
+
+DEPENDENCIES
+------------
+
+This project uses various open-source dependencies. See Cargo.toml for a
+complete list. Notable dependencies include:
+
+  - des: Cryptography library (MIT OR Apache-2.0)
+  - cipher: Cryptography traits (MIT OR Apache-2.0)
+  - flate2: Compression library (MIT OR Apache-2.0)
+  - zip: ZIP archive handling (MIT)
+  - crc32fast: CRC32 implementation (MIT OR Apache-2.0)
+  - thiserror: Error derive macros (MIT OR Apache-2.0)
+
+Please refer to each dependency's license for their specific terms.
+
+If you distribute binaries, you may need to include copies of relevant
+third-party license texts (and any required NOTICE files). Tools like
+`cargo-about` can help generate a bundled third-party notices file.
