@@ -79,6 +79,6 @@ See `NOTICE`, `LICENSE.MPL`, and `LICENSE.MIT` for details.
 
 ## Credits
 
-Based on the original [Luna](https://github.com/ndless-nspire/Luna) by Olivier Armand and contributors.
+Based on the original [Luna](https://github.com/ndless-nspire/Luna)
 
 TI-Nspire is a trademark of Texas Instruments. This project is not affiliated with or endorsed by Texas Instruments.
